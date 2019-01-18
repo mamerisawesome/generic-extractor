@@ -1,0 +1,10 @@
+Flask
+python-dotenv
+gunicorn
+Flask-SQLAlchemy
+Flask-Migrate
+psycopg2
+Flask-SSLify
+flask-sslify
+requests
+bs4

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block main %}
+<div class="container">
+  <h2>Website Extractor</h2>
+  <form id="extract-details">
+    <div class="input-field col s12">
+      <input type="text" name="url" id="url" class="validate">
+      <label for="url">URL / Source web page link</label>
+    </div>
+    <div class="input-field col s6">
+      <input type="text" name="root-container" id="root-container" class="validate">
+      <label for="root-container">Root container</label>
+    </div>
+    <div class="input-field col s6">
+      <input type="text" name="target" id="target" class="validate">
+      <label for="target">Target element</label>
+    </div>
+    <button id="btn-extract" class="btn">Start Extraction</button>
+  </form>
+</div>
+<footer>
+  <div class="container">
+    <button id="btnAdd" class="btn">Install App</button>
+  </div>
+</footer>
+{% endblock %}

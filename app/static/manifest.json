@@ -1,0 +1,12 @@
+{
+  "name": "Flask-PWA",
+  "short_name": "Flask-PWA",
+  "description": "A progressive webapp template built with Flask",
+  "theme_color": "transparent",
+  "background_color": "transparent",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": []
+}

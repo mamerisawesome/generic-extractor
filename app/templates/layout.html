@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block body %}
+<header>
+  <nav class="green darken-4 nav">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo">{{ title }}</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  {% block main %}{% endblock %}
+</main>
+
+<footer>
+</footer>
+{% endblock %}
